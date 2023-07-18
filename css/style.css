@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap");
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  padding: 1.2rem;
+}
+header .logo{
+  width: 20rem;
+  height: 20rem;
+}
+header .header-left{
+  width: 12.5rem;
+}
+
+header .header-right .lang{
+  display: flex;
+  gap: 20px;
+}
+.header .header-right .english {
+  border: 2px solid white;
+  height: 40px;
+  padding: 10px 20px;
+}
+.header-right{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+select{
+  padding: 5px;
+  font-size: 14px;
+}
+
+option{
+  padding: 5px;
+}
